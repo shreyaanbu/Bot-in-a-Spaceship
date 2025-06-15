@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - StoreMiddle1
+  - Middle 1 Changer
+  - Middle1Store
+  - Middle1NoPlot
+  - Middle1Middle2
+  - Middle1Casual
+  - NoPlotMiddle1
+  - CasualSpace
+  - CasualPrison
+  - PrisonCasual
+  - SpaceCasual
+  - Middle2Middle1
+  - Middle2O2
+  - O2Middle2
+  - O2Maze
+  - MazeO2
+  - CasualMiddle1
+  - Wall
+  - Movebox1
+  - Movebox2
+  - Movebox3
+  - Movebox4
+  - Movebox5
+  - Movebox6
+  - Movebox7
+  - Movebox8
+  - Movebox9
+  - Movebox10
+  - Ladder
+  - Decoy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3170306689
+    locked: 0
+  m_RenderingLayers:
+  - Default
