@@ -923,7 +923,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attack with bullet particle_0: -3855758672806428296
+      attack with bullet particle_1: 1597811511816748680
+      attack with bullet particle_10: -680171314253974550
+      attack with bullet particle_11: -8462113949606630697
+      attack with bullet particle_12: 4115472053736036191
+      attack with bullet particle_13: 6122464200423152468
+      attack with bullet particle_14: 4867241984193472617
+      attack with bullet particle_15: 1876260481188295118
+      attack with bullet particle_16: -4171399980003035008
+      attack with bullet particle_17: -6717393240211390339
+      attack with bullet particle_18: -8313565906966300794
+      attack with bullet particle_19: -4514174329757262600
+      attack with bullet particle_2: -1125406248302235751
+      attack with bullet particle_20: 2246798450314852955
+      attack with bullet particle_21: -1197753645898604810
+      attack with bullet particle_22: -9119346831310013071
+      attack with bullet particle_23: -3822329341824468046
+      attack with bullet particle_24: -3014615733903669829
+      attack with bullet particle_25: 7287664351127426839
+      attack with bullet particle_26: 3720303841638024162
+      attack with bullet particle_27: 1940977420422627145
+      attack with bullet particle_28: 264444418350671460
+      attack with bullet particle_29: -6938043075141870771
+      attack with bullet particle_3: -2441523833524252686
+      attack with bullet particle_30: -8758791530220707376
+      attack with bullet particle_4: 5783288359664712963
+      attack with bullet particle_5: 3256492983875176724
+      attack with bullet particle_6: -1965137115697386319
+      attack with bullet particle_7: -5350234387877375463
+      attack with bullet particle_8: 3278518727776544508
+      attack with bullet particle_9: -2258123762290284635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
