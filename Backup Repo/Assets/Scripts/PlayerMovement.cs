@@ -185,7 +185,7 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
 
-        
+      
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -199,75 +199,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateAnimationState()
 {
-        if (isMaze)
+        
+        if (moveInput.x != 0)
         {
-            anim.SetBool("WALK", false);
-            if (moveInput.x < 0)
-            {
-                if (moveInput.y < 0)
-                {
-                    mytransform.rotation = Quaternion.Euler(180, 0, 0);
-                }
-                else if (moveInput.y > 0)
-                {
-                    mytransform.rotation = Quaternion.Euler(0, 0, 0);
-                }
-                else
-                {
-                    mytransform.rotation = Quaternion.Euler(0, 0, 90);
-                }
-            }
-            else if (moveInput.x > 0)
-            {
-                if (moveInput.y < 0)
-                {
-                    mytransform.rotation = Quaternion.Euler(180, 0, 0);
-                }
-                else if (moveInput.y > 0)
-                {
-                    mytransform.rotation = Quaternion.Euler(0, 0, 0);
-                }
-                else
-                {
-                    mytransform.rotation = Quaternion.Euler(0, 0, 270);
-                }
-            }
-            else
-            {
-                if (moveInput.y < 0)
-                {
-                    mytransform.rotation = Quaternion.Euler(180, 0, 0);
-                }
-                else if (moveInput.y > 0)
-                {
-                    mytransform.rotation = Quaternion.Euler(0, 0, 0);
-                }
-                // else
-                // {
-                //     myTransform.rotation = Quaternion.Euler(0, 0, 90);
-                // }
-            }
+            // anim.SetBool("JUMP", false);
+            anim.SetBool("WALK", true);
+            // Vector3 scale = mytransform.localScale;
+            // scale.x = 1f;
+            // scale.y = 1f;
+            // mytransform.localScale = scale;
         }
         else
         {
-            if (moveInput.x != 0)
-            {
-                // anim.SetBool("JUMP", false);
-                anim.SetBool("WALK", true);
-                // Vector3 scale = mytransform.localScale;
-                // scale.x = 1f;
-                // scale.y = 1f;
-                // mytransform.localScale = scale;
-            }
-            else
-            {
-                // anim.SetBool("JUMP", false);
-                anim.SetBool("WALK", false);
-                // Vector3 scale = mytransform.localScale;
-                // scale.x = 1f;
-                // scale.y = 1f;
-                // mytransform.localScale = scale;
-            }
+            // anim.SetBool("JUMP", false);
+            anim.SetBool("WALK", false);
+            // Vector3 scale = mytransform.localScale;
+            // scale.x = 1f;
+            // scale.y = 1f;
+            // mytransform.localScale = scale;
         }
 }
 }
