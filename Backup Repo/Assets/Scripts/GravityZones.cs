@@ -22,7 +22,7 @@ public class GravityZones : MonoBehaviour
         else
         {
             Physics2D.gravity = new Vector2(0, -1 * gravityStrength);
-            playerObject.GetComponent<SpriteRenderer>().flipY = false;
+            playerObject.GetComponent<SpriteRenderer>().flipY = false ;
         }
     }
 }
